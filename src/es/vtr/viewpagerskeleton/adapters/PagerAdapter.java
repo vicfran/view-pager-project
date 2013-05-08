@@ -1,12 +1,12 @@
-package es.vtr.PhoneManager.adapters;
+package es.vtr.viewpagerskeleton.adapters;
 
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import es.vtr.PhoneManager.fragments.FirstFragment;
-import es.vtr.PhoneManager.fragments.SecondFragment;
-import es.vtr.PhoneManager.fragments.ThirdFragment;
+import es.vtr.viewpagerskeleton.fragments.FirstFragment;
+import es.vtr.viewpagerskeleton.fragments.SecondFragment;
+import es.vtr.viewpagerskeleton.fragments.ThirdFragment;
 
 import java.util.Vector;
 

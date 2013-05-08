@@ -1,9 +1,9 @@
-package es.vtr.PhoneManager.activities;
+package es.vtr.viewpagerskeleton.activities;
 
 import android.support.v4.app.FragmentActivity;
-import es.vtr.PhoneManager.R;
+import es.vtr.viewpagerskeleton.R;
 import android.os.Bundle;
-import es.vtr.PhoneManager.fragments.MainFragment;
+import es.vtr.viewpagerskeleton.fragments.MainFragment;
 
 
 public class MainActivity extends FragmentActivity {
