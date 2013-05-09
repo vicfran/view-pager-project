@@ -27,6 +27,10 @@ public class PagerAdapter extends FragmentPagerAdapter {
     public PagerAdapter(FragmentManager fragmentManager) {
         super(fragmentManager);
 
+        /*
+         * Build as many fragments (pages) as you have defined in PAGES and
+         * store them
+         */
         pages.add(new FragmentA());
         pages.add(new FragmentB());
         pages.add(new FragmentC());
