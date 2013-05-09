@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/content"
               android:orientation="vertical"
@@ -9,6 +10,6 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical|center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/lbl_content"/>
+            android:text="Fragment (page) B"/>
 
 </LinearLayout>

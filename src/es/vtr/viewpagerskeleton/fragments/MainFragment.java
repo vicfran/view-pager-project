@@ -9,9 +9,19 @@ import android.view.ViewGroup;
 import es.vtr.viewpagerskeleton.R;
 import es.vtr.viewpagerskeleton.adapters.PagerAdapter;
 
+/**
+ * This is the main fragment holding the view pager
+ */
 public class MainFragment extends Fragment {
 
+    /**
+     * View pager
+     */
     private ViewPager viewPager;
+
+    /**
+     * View pager's adapter
+     */
     private PagerAdapter pagerAdapter;
 
     @Override
@@ -24,7 +34,6 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_main, container, false);
-
     }
 
     @Override

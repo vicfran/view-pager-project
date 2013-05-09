@@ -7,10 +7,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import es.vtr.viewpagerskeleton.R;
 
-public class SecondFragment extends Fragment {
+/**
+ * This is fragment (page) A
+ */
+public class FragmentA extends Fragment {
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_second, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup containfer, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_a, containfer, false);
     }
 }
