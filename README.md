@@ -5,13 +5,13 @@ Skeleton of view pager implementation for Android projects.
 
 If you want to implement a View Pager in your Android app, follow this skeleton.
 
-*Hope it helps you like it helps me.
+*Hope it helps you like it helps me.*
 
 Code
 --------------------------------------------
 Source tree (I have uploaded to the repo only the essential things you need to implement the view pager, they are):
 
-src/
+    src/
     activities/
         MainActivity
 
@@ -24,7 +24,7 @@ src/
         FragmentB : Page B
         FragmentC : Page C
 
-res/
+    res/
     layout/
         activity_main
         fragment_main
@@ -51,4 +51,3 @@ It's easy, if you want to implement a ViewPager in your Android app, you have to
 
 
 That's all
--------------------------------------------
